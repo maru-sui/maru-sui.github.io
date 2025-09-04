@@ -1,0 +1,109 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  background: #0d47a1;
+  color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+nav {
+  background: #1565c0;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 3rem 1rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  border-bottom: 2px solid #0d47a1;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.3rem;
+}
+
+.business {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.business div {
+  flex: 1 1 250px;
+  background: #f9f9f9;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.works-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.work-card {
+  flex: 1 1 250px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  background: #fff;
+  text-align: center;
+}
+.work-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+form input,
+form textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+form button {
+  padding: 0.8rem;
+  border: none;
+  background: #0d47a1;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #1565c0;
+}
+
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
