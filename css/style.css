@@ -107,3 +107,18 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
+
+.instagram-link {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.instagram-link:hover {
+  opacity: 0.8;
+}
