@@ -110,13 +110,17 @@ footer {
 
 .instagram-logo-link {
   display: inline-block;
-  margin-top: 10px;
+  width: 70px;
+  height: 70px;
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .instagram-logo-link img {
-  width: 70px;
-  height: 70px;
+  width: 70px !important;
+  height: 70px !important;
+  max-width: 70px !important;
+  max-height: 70px !important;
+  object-fit: contain;
   display: block;
 }
 
@@ -128,4 +132,5 @@ footer {
 .instagram-account {
   margin-top: 10px;
   font-weight: bold;
+}
 }
